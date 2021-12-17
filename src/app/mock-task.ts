@@ -19,7 +19,7 @@ export const TASKS:Task[] = [
     text:"Ir al cine",
     day: "16 de Diciembre a las 22:00",
     reminder: false
-  }
+  },
 
   {
     id: 4,

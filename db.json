@@ -1,13 +1,25 @@
 {
   "tasks": [
     {
+      "id": 1,
+      "text": "Hacer la cama",
+      "day": "20 de Diciembre a las 18:00",
+      "reminder": true
+    },
+    {
       "id": 2,
-      "text": "Hacer la tarea",
-      "day": "15 de Diciembre a las 18:00",
+      "text": "Hacer nada",
+      "day": "25 de Diciembre a las 10:00",
       "reminder": true
     },
     {
       "id": 3,
+      "text": "Ir a comprar leche",
+      "day": "27 de Diciembre a las 14:00",
+      "reminder": false
+    },
+    {
+      "id": 4,
       "text": "Ir al cine",
       "day": "16 de Diciembre a las 22:00",
       "reminder": false

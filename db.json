@@ -1,28 +1,28 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "Hacer la cama",
-      "day": "20 de Diciembre a las 18:00",
-      "reminder": true
-    },
-    {
       "id": 2,
       "text": "Hacer nada",
-      "day": "25 de Diciembre a las 10:00",
+      "day": "2022-01-08T14:19",
       "reminder": true
     },
     {
-      "id": 3,
-      "text": "Ir a comprar leche",
-      "day": "27 de Diciembre a las 14:00",
+      "id": 5,
+      "text": "Hacer la comida",
+      "day": "2022-01-08T14:19",
       "reminder": false
     },
     {
-      "id": 4,
-      "text": "Ir al cine",
-      "day": "16 de Diciembre a las 22:00",
+      "id": 6,
+      "text": "Hacerse la...",
+      "day": "2022-01-08T15:35",
       "reminder": false
+    },
+    {
+      "id": 7,
+      "text": "Ir al cine",
+      "day": "2022-01-08T17:40",
+      "reminder": true
     }
   ]
 }

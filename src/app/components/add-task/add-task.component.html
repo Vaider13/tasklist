@@ -15,13 +15,14 @@
   </div>
 
   <div class="form-control">
-    <label for="day">Day & Time</label>
+    <label for="date">Day & Time</label>
     <input
-      type="text"
-      name="day"
-      id="day"
-      placeholder="Add Day & Time"
-      [(ngModel)]="day"
+      name="date"
+      type="datetime-local"
+      id="date"
+      placeholder="yyyy-MM-ddTHH:mm:ss"
+      [(ngModel)]="date"
+      required
       />
   </div>
 

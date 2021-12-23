@@ -12,7 +12,6 @@ export class AddTaskComponent implements OnInit {
   @Output() onAddTask: EventEmitter<Task> = new EventEmitter();
   id:number = 0;
   text:string = "";
-  date:Date = new Date();
   day:number = 0;
   reminder:boolean = false;
   showAddTask:boolean =false;
@@ -31,7 +30,7 @@ export class AddTaskComponent implements OnInit {
     if(this.text.length === 0) {
       alert("Please add a task");
     }
-    this.day = this.date.valueOf();
+    this.day = new Date(this.day).valueOf();
     const {id,text,day,reminder} = this
     const newTask = {id,text,day, reminder}
     this.onAddTask.emit(newTask);

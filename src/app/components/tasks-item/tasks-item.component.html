@@ -9,5 +9,17 @@
     (click)="onDelete(task)"
     ></fa-icon>
   </h3>
+
   <p>{{task.day | date:'EEEE, dd MMMM, yyyy, HH:mm'}}</p>
+  <p *ngIf="task.day < fechaActual"
+      [ngStyle]="{'color': 'red'}"
+      >
+      La tarea ya vencio
+    </p>
+
+  <p *ngIf="(task.day - fechaActual) <= 172800000 && (task.day - fechaActual) > 0"
+     [ngStyle]="{'color': 'orange'}"
+    >
+    La tarea esta proxima a vencer
+  </p>
 </div>

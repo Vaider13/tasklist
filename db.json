@@ -1,27 +1,39 @@
 {
   "tasks": [
     {
+      "id": 1,
+      "text": "Cumpleaños de Taylor Swift",
+      "day": 1639420860000,
+      "reminder": true
+    },
+    {
       "id": 2,
-      "text": "Hacer nada",
-      "day": "2022-01-08T14:19",
+      "text": "Cumpleaños de Pablo Quirco",
+      "day": 1647694800000,
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Noche buena",
+      "day": 1640379600000,
+      "reminder": true
+    },
+    {
+      "id": 4,
+      "text": "Navidad",
+      "day": 1640401200000,
       "reminder": true
     },
     {
       "id": 5,
-      "text": "Hacer la comida",
-      "day": "2022-01-08T14:19",
+      "text": "Levantarse",
+      "day": 1640260800000,
       "reminder": false
     },
     {
       "id": 6,
-      "text": "Hacerse la...",
-      "day": "2022-01-08T15:35",
-      "reminder": false
-    },
-    {
-      "id": 7,
-      "text": "Ir al cine",
-      "day": "2022-01-08T17:40",
+      "text": "Dia después de navidad",
+      "day": 1640487600000,
       "reminder": true
     }
   ]

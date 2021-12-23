@@ -16,10 +16,13 @@ export class TasksItemComponent implements OnInit {
   @Output() onToggleReminder:EventEmitter<Task> = new EventEmitter();
   faTimes = faTimes;
   faEdit = faEdit;
+  fechaActual:number = new Date().valueOf();
+
 
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
   onDelete(task:Task) {
@@ -29,4 +32,6 @@ export class TasksItemComponent implements OnInit {
   onToggle(task:Task) {
     this.onToggleReminder.emit(task);
   }
+
 }
+
